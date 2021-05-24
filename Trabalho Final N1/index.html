@@ -1,0 +1,118 @@
+<!doctype html>
+<html lang="pt-br">
+
+<head>
+    <meta charset=" utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/estilo.css">
+</head>
+
+<body>
+    <section>
+
+        <nav>
+            <div class="divNavPc">
+                <div class="navbar navbar-expand-lg navbar-light bg-light">
+                    <div class="divTitleTop">
+                        <a class="navbar-brand" href="#">LoL</a>
+                    </div>
+                    <div class="container-fluid">
+                        <img src="img/lol.jpg" style="width:10%;">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        <a class="nav-link" href="#">Fotos</a>
+                        <a class="nav-link" href="#">Destaques</a>
+                        <div class="text-end  divTitleBotton">
+                            <a class="navbar-brand" href="#">League Of Legends</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+
+
+        <header>
+            <div class="divBtn">
+                <img src="img/loll.png" alt="" width="100%"
+                    class="d-inline-block align-text-top img-wrapper">
+            </div>
+        </header>
+
+        <main>
+            <div class="divColor">
+                <div class="container divContainer">
+                  <img src="img/blitz.png" alt="" width="25%" class="divImgMobile">
+                    <div class="divBoard"></div>
+
+                    <p class="lead divTextMain">League of Legends is a team-based strategy game where two teams of five powerful champions face off to destroy the other’s base. Choose from over 140 champions to make epic plays, secure kills, and take down towers as you battle your way to victory.
+                    </p>
+
+                </div>
+            </div>
+        </main>
+
+        <aside>
+            <div class="container">
+                <div class="row divRow">
+                    <div class="col-9">
+                        <p>Champions get stronger by earning experience to level up and gold to buy more powerful items as the game progresses. Staying on top of these two factors is crucial to overpowering the enemy team and destroying their base.</p>
+                    </div>
+                    <div class="col-3">
+                    </div>
+                </div>
+
+                <div class="row divRow">
+                    <div class="col-9">
+                        <p>Champions have five core abilities, two special spells, and up to seven items at a time. Figuring out the optimal ability order, summoner spells, and item build for your champion will help you succeed as a team.</p>
+                    </div>
+                    <div class="col-3">
+                  </div>
+                </div>
+
+                <div class="row divRow">
+                    <div class="col-9">
+                        <p>Your team needs to clear at least one lane to get to the enemy Nexus. Blocking your path are defense structures called turrets and inhibitors. Each lane has three turrets and one inhibitor, and each Nexus is guarded by two turrets.</p>
+                    </div>
+                    <div class="col-3">
+                    </div>
+                </div>
+            </div>
+        </aside>
+
+        <article>
+            <div class="container">
+                <p class="lead display-6">In between the lanes is the jungle, where neutral monsters and jungle plants reside. The two most important monsters are Baron Nashor and the Drakes. Killing these units grants unique buffs for your team and can also turn the tide of the game.</p>
+            </div>
+        </article>
+        <footer>
+          <form>
+            <label for="name" style="padding-top:3%;">User</label>
+            <input type="text" id="name" name="name" class="form-control" required placeholder="Type your user on LoL">
+            <label for="email" style="padding-top:3%">Email</label>
+            <input type=email id="email" name="email" class="form-control" placeholder="Type your email" required>
+            <input type="submit" class="btn" style="margin-top:3%;" onclick="inf()">
+
+          </form>
+        </footer>
+    </section>
+</body>
+</html>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+    crossorigin="anonymous"></script>
+
+
+<script>
+
+    function inf() {
+        var person = new Object()
+        person.name = document.getElementById("name").value
+        person.email = document.getElementById("email").value
+        alert("Nome: " + person.name + "\n" + "E-mail: " + person.email)
+    }
+</script>

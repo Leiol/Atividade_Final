@@ -1,0 +1,192 @@
+body {
+    font-size: 18px;
+}
+
+.divTitleBotton {
+    display: inline-flex;
+}
+
+.divTitleTop {
+    display: none;
+}
+header{
+    font-family:"Lucida Console", Courier, monospace;
+}
+nav{
+    font-family:"Lucida Console", Courier, monospace;
+}
+article{
+    font-family:"Lucida Console", Courier, monospace;
+}
+aside{
+    font-family:"Lucida Console", Courier, monospace;
+}
+
+main {
+    background: #000;
+    color: #fff;
+    width: auto;
+      font-family:"Lucida Console", Courier, monospace;
+}
+footer{
+    font-family:"Lucida Console", Courier, monospace;
+    clear: both;
+}
+
+.divContainer {
+    display: inline-flex;
+}
+
+.divImgMobile {
+    width: 50%;
+}
+
+.divBoard {
+    border-right: 2px solid #fff;
+    margin: 8% 15px;
+}
+
+.divTextMain {
+    margin: 8% 5px;
+}
+
+.divText {
+    margin: 85px 0;
+}
+
+.divImg {
+    margin: 45px 0;
+}
+
+aside {
+    margin-top: 45px;
+    width: 50%;
+    float: left;
+}
+
+.divRow {
+    border-bottom: 1px solid;
+    border-top: 1px solid;
+    margin: 0 14px;
+}
+
+article {
+    margin-top: 45px;
+    border-left: 1px solid #000;
+    width: 50%;
+    float: right;
+}
+
+.divBtn {
+    position: relative;
+    text-align: center;
+}
+
+.divBtn button {
+    position: absolute;
+    z-index: 1;
+    top: 90%;
+    left: 50%;
+    -webkit-transform: translate3d(-50%, -50%, 0);
+    width: 250px;
+    height: 50px;
+}
+
+@media screen and (max-width: 480px) {
+    .divTitleTop {
+        display: inline-flex;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .divTitleBotton {
+        display: none;
+    }
+
+    .divContainer {
+        display: inline-block;
+    }
+
+    .divImgMobile {
+        display: none;
+    }
+
+    .divBoard {
+        display: none;
+    }
+
+    main .divTextMain {
+        margin: 0;
+        padding: 10px;
+        text-align: center;
+    }
+
+    article {
+        display: none;
+    }
+
+    aside {
+        width: 100%;
+    }
+
+    .divRow {
+        border-top: 1px solid;
+        border-bottom: 1px solid;
+        margin: 0;
+    }
+
+    .container {
+        margin: 0;
+        padding: 0;
+    }
+
+    .divText {
+        margin: 20px 40px;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    article {
+        display: none;
+    }
+
+    aside {
+        width: 100%;
+    }
+
+    .divBoard {
+        display: none;
+    }
+
+    .divRow {
+        border-top: 1px solid;
+        border-bottom: 1px solid;
+    }
+
+    .divContainer {
+        display: inline;
+        display: block;
+    }
+
+    .divTextMain {
+        margin: 0;
+        padding-bottom: 10px;
+        position: relative;
+        text-align: center;
+    }
+
+    .divImgMobile {
+        width: 100%;
+    }
+
+    .divBoard {
+        display: none;
+    }
+
+    .divText {
+        text-align: center;
+    }
+}
+message.txt
+3 KB
